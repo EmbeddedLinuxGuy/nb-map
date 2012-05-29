@@ -1,0 +1,117 @@
+{"name": "skills", "children": [
+     {"name": "software", "children": [
+	  {"name": "programming", "children": [
+	       {"name": "languages", "children": [
+		    {"name": "system", "children": [
+			 {"name": "clike", "children": [
+			      {"name": "C", "size": 1, "pop": 1000},
+			      {"name": "C++", "size": 1},
+			      {"name": "D", "size": 1}
+			      ]
+			 },
+			 {"name": "Assembler", "size": 1}
+			 ]
+		    },
+		    {"name": "scripting", "children": [
+			 {"name": "Perl", "size": 1},
+			 {"name": "PHP", "size": 1},
+			 {"name": "Python", "size": 1},
+			 {"name": "Ruby", "size": 1},
+			 {"name": "Scala", "size": 100}
+			 ]
+		    }, 
+		    {"name": "web", "children": [
+			 {"name": "Java", "size": 1},
+			 {"name": "JavaScript", "size": 1}
+			 ]
+		    },
+		    {"name": "Lisp", "size": 1},
+		    {"name": "Lua", "size": 1},
+		    {"name": "Haskell", "size": 1},
+		    {"name": "Erlang", "size": 1}
+		    ]
+	       },
+	       {"name": "platforms", "children": [
+		    {"name": "iOS", "size": 1},
+		    {"name": "Android", "size": 1},
+		    {"name": "HTML5", "size": 1}
+		    ]
+	       },
+	       {"name": "fields",
+		"children": [
+		    {"name": "machine learning", "size": 1},
+		    {"name": "graphics", "size": 1},
+		    {"name": "category theory", "size": 9},
+		    {"name": "AI", "size": 1}
+		    ]
+	       }
+	       ]
+	  },
+	  {"name": "systems", "children": [
+	       {"name": "admin", "children": [
+		    {"name": "unix admin", "size": 1},
+		    {"name": "windows admin", "size": 1},
+		    {"name": "network admin", "size": 1}
+		    ]
+	       },
+	       {"name": "security", "size": 1},
+	       {"name": "virtualization", "size": 1},
+	       {"name": "databases", "size": 1},
+	       {"name": "cisco routing", "size": 1}
+	       ]
+	  }
+	  ]
+     },
+     {"name": "electronics", "children": [
+	  {"name": "technique", "children": [
+	       {"name": "soldering", "size": 1},
+	       {"name": "smd", "size": 1},
+	       {"name": "reflow", "size": 1}
+	       ]
+	  },
+	  {"name": "electronic components", "size": 1},
+	  {"name": "tools", "children": [
+	       {"name": "multimeter", "size": 1},
+	       {"name": "oscilloscope", "size": 1},
+	       {"name": "logic analyzer", "size": 1}
+	       ]
+	  },
+	  {"name": "engineering", "children": [
+	       {"name": "digital design", "size": 1},
+	       {"name": "analog design", "size": 1}
+	       ]
+	  }
+	  ]
+     },
+     {"name": "general", "children": [
+	  {"name": "crafting", "children": [
+	       {"name": "sewing", "size": 1},
+	       {"name": "knot tying", "size": 1}
+	       ]
+	  },
+	  {"name": "brewing", "size": 1},
+	  {"name": "plants", "size": 1},
+	  {"name": "construction", "children": [
+	       {"name": "plumbing", "size": 1},
+	       {"name": "drywall", "size": 1}
+	       ]
+	  },
+	  {"name": "weather", "size": 1}
+	  ]
+     },
+     {"name": "science", "children": [
+	  {"name": "physics", "size": 10},
+	  {"name": "chemistry", "size": 1},
+	  {"name": "life", "children": [
+	       {"name": "biology", "size": 1},
+	       {"name": "genetics", "size": 1},
+	       {"name": "bioengineering", "size": 1},
+	       {"name": "ecology", "size": 1}
+	       ]
+	  },
+	  {"name": "optics", "size": 1}
+	  ]
+     }
+     ]
+}
+
