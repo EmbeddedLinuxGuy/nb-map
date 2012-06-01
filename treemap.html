@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <title>Treemap</title>
+    <title>Nb-Discuss</title>
     <script type="text/javascript" src="../../d3.v2.js"></script>
     <link type="text/css" rel="stylesheet" href="treemap.css"/>
     <link type="text/css" rel="stylesheet" href="../button.css"/>
@@ -10,13 +10,18 @@
   <body>
     <div id="chart">
       <button id="topic" class="first active">
-        Topic
-      </button><button id="emails">
-        Emails
-      </button><button id="users" class="last">
-        Users
-      </button><p>
+        by topic
+       </button><button id="users">
+        by users
+      </button><button id="emails" class="last">
+        by emails
+     </button>
+<button id="resize" class="first last"> resize </button>
+<input type="text" size="4" id="width" value="600" />width
+              <input type="text" size="5" id="height" value="500" />height
+        
+<div id="status">click buttons to resize - mouse over for data</div><p>
     </div>
-    <script type="text/javascript" src="treemap.js"></script>
   </body>
+    <script type="text/javascript" src="treemap.js"></script>
 </html>
